@@ -1,0 +1,29 @@
+<html>
+  <body>
+    <div id="container">
+      <form>
+        <div>
+          <label>First Name:</label>
+          <input type="text" class="form-input" id="firstName" value="Mario" />
+        </div>
+        <div>
+          <label>Last Name:</label>
+          <input type="text" class="form-input" id="lastName" value="Rossi" />
+        </div>
+        <div>
+          <label>Age:</label>
+          <input type="number" class="form-input" id="age" value="25" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+<script>
+/*   let arrayOfTags = document.getElementsByClassName("form-input"); 
+  let firstName = arrayOfTags[0].value;       ||        document.querySelector(".form-input").value; */
+
+  let firstName = document.getElementsByClassName("form-input")[0].value;
+
+  console.log(firstName);
+</script>
